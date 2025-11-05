@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pasteleria de Lina</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body> 
+   <header>
+    <img   class="logo" src="./assets/image/Logo.jpg">
+    <div class="titulo">
+       <h1 style="margin-bottom: 1%;">BIENVENIDO A LA PASTELERIA DE LINA</h1><br/>
+          <P style="margin-top: -2%;">La vida hay que saber hornearla</P>       
+      
+    </div>
+    
+   </header> 
+  <div class="contenedor">
+
+      <div name="menu" class="elemento">
+        <nav class="nav-links" >           
+            <a href="index.html">INICIO</a>
+            <a href="productos.html">PASTELERIA ONLINE</a>   
+            <a href="formulario.html">CONTACTO</a>    
+        </nav>
+      </div>
+
+    <div class="formulario">
+  
+      <h2>Formulario de Contacto</h2>      
+      
+       <form action="#" method="get">
+
+       <label for="Elige tu zona">Elige tu zona</label>
+       <select name="Elige tu zona" id="Elige tu zona">
+        <option value="z">Zaragoza</option>
+        <option value="m">Málaga</option>
+        <option value="s">Sevilla</option>
+        <option value="t">Tarragona</option>
+        <option value="ma">Madrid</option>
+        <option value="b">Barcelona</option>
+       </select>
+
+        <p>CONTACTANOS</p>
+        <p>A través de nuestras redes sociales o nuestra pagina web, y tendremos el gusto de atenderte.</p>
+        <p>¿Como podemos ayudarte?</p>
+
+        <input type="radio" name="servicio" value="d" id="domi"><label for="domi">Servicio a domicilio</label><br>
+        <input type="radio" name="servicio" value="r" id="recogida"><label for="recogida">Recoger Allí</label><br>
+
+        <fieldset>
+
+          <legend>Datos Personales</legend> 
+          <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required><br>
+
+        <label for="dirección">Dirección</label><br>
+        <input type="text" name="dirección" id="dirección" placeholder="Escriba su direccion" required><br>
+        
+        <label for="correo">Correo</label><br>
+        <input type="email" name="correo" id="correo" placeholder="Escribe tu correo" required><br>
+
+         <label for="telefono">Teléfono</label><br>
+        <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu numero" required><br>
+
+        <label for="fecha">Fecha de Nacimiento</label><br>
+        <input type="date" name="fecha" id="fecha" required><br>
+
+        </fieldset>        
+
+         <p>¨Nuestros Productos son 100% Artesanales¨</p><br>
+        <input type="checkbox" name="Tartas" value="si" id="Tartas"><label for="Tartas">Tartas</label><br>
+        <input type="checkbox" name="Delicatessen" value="si" id="Delicatessen"><label for="Delicatessen">Delicatessen</label><br>
+        <input type="checkbox" name="Postres" value="si" id="Postres"><label for="Postres">Postres</label><br>
+
+        <p>Personaliza tus tartas y escoge el sabor que más te guste!</p>
+
+        <label for="Sabor">Lista de sabores</label><br>
+        <input list="Lista de sabores" id="sabor" name="sabor">
+        
+       <datalist id="Lista de sabores">
+        <option value="Vino"></option>
+        <option value="Limon"></option>
+        <option value="Chocolate"></option>
+        <option value="vainilla"></option>
+        <option value="Zanahoria"></option>
+        <option value="Naranja"></option>
+       </datalist><br>
+
+       <p>En la pestañita de abajo puedes hacer una descripcion mas exacta del producto que deseas.</p><br>
+       <label for="comentario">Comentario</label><br>
+       <textarea name="comentario" id="comentario" cols="35" rows="10" placeholder="Escriba aquí"></textarea><br>
+
+
+       <input type="submit" value="Enviar"><br>
+
+   
+       
+     </form>
+      
+    
+    </div>
+   
+      
+  </div>
+             
+
+</body>
+
+     <footer>
+         <a href='https://avisolegal.com/tusitio' target='_blank'>Aviso legal</a>
+        <P>Dirección-Caminito del Ing. Acosta 2, Malaga Capital</P>
+        <h4>Síguenos</h4>
+        <a href='https://facebook.com/lapasteleriadelina' target='_blank'>Facebook</a>
+        <a href='https://instagram.com/lapasteleriadelina' target='_blank'>instagram</a>
+        <!-- Otros enlaces a redes sociales -->
+   </footer>
+</html>
