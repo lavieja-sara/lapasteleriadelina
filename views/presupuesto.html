@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Pastelería de Lina</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="../images/Logo.jpg" alt="Logo La Pastelería de Lina" />
+      <div class="titulo">
+        <h1 style="margin-bottom: 1%;">BIENVENIDO A LA PASTELERÍA DE LINA</h1>
+        <br />
+        <p style="margin-top: -2%;">La vida hay que saber hornearla</p>
+      </div>
+    </header>
+
+    <div class="contenedor">
+      <div name="menu" class="elemento">
+        <nav class="menu-principal">
+          <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="productos.html">PRODUCTOS</a></li>
+            <li>
+              <a class="menu-select" href="presupuesto.html">PRESUPUESTO</a>
+            </li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="formulario">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="nombre">Nombre</label><br />
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Escriba su nombre"
+              required
+            /><br />
+
+            <label for="Email">Email</label><br />
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Escribe tu correo"
+              required
+            /><br />
+
+            <label for="telefono">Teléfono</label><br />
+            <input
+              type="tel"
+              name="telefono"
+              id="telefono"
+              placeholder="Escribe tu número"
+              required
+            /><br />
+          </fieldset>
+
+          <label for="comentario">Solicite más información</label><br />
+          <textarea
+            name="comentario"
+            id="comentario"
+            cols="35"
+            rows="10"
+            placeholder="Escriba aquí"
+          ></textarea><br />
+
+          <input type="checkbox" id="politica" name="politica" required />
+          <label for="politica">
+            He leído y acepto la
+            <a href="/politica-de-privacidad/" target="_blank"
+              >Política de Privacidad</a
+            >
+          </label>
+          <br />
+
+          <input type="submit" value="Enviar datos" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <h4>Síguenos</h4>
+      <a
+        href="http://facebook.com/lapasteleriadelina"
+        target="_blank"
+        >Facebook</a
+      >
+      <a
+        href="https://instagram.com/lapasteleriadelina"
+        target="_blank"
+        >Instagram</a
+      >
+      <!-- Otros enlaces a redes sociales -->
+      <p>Dirección - Caminito del Ing. Acosta 2, Málaga Capital</p>
+      <a href="https://avisolegal.com/tusitio" target="_blank">Aviso legal</a>
+    </footer>
+  </body>
+</html>
