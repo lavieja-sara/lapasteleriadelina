@@ -1,0 +1,162 @@
+/* ==============================
+   GENERAL
+   ============================== */
+body {
+    font-family: cursive;
+}
+
+/* ==============================
+   CABECERA
+   ============================== */
+.cabecera {
+    display: inline-block; 
+    margin-left: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 70%; 
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    height: 100px;
+    top: 1%;
+    color: rgb(93, 10, 56);
+    text-decoration: none;
+}
+
+/* ==============================
+   MENÚ PRINCIPAL
+   ============================== */
+.menu-principal {
+    overflow: hidden; /* Para limpiar los flotantes */
+}
+
+.menu-principal ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal li {
+    display: inline-block; /* Muestra los elementos en línea */
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal li a {
+    display: block; /* Hace que el área del enlace sea más grande */
+    padding: 15px 20px; /* Espacio interno para los enlaces */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: rgb(93, 10, 56);
+}
+
+.menu-principal li a:hover {
+    color: white;
+    background-color: #555; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.menu-select {
+    background-color: rgb(184, 140, 164);
+}
+
+/* ==============================
+   CONTENEDORES
+   ============================== */
+.contenedor {
+    top: 40%;
+    background: white;
+    width: auto;
+    height: auto;
+    align-items: center; /* Centra verticalmente */
+}
+
+.elemento {
+    margin-bottom: 1%;
+    top: 0%;
+    width: 100%;
+    height: 50px;
+    background: #e4c0d8f7;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* ==============================
+   PRODUCTOS / TARTAS
+   ============================== */
+.tartas {
+    position: relative;
+    top: 30%;
+    left: 20%; 
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.TartaImagen {
+    width: 250px;
+    height: 300px;
+}
+
+.TartaTitulo {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: none;  
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+}
+
+.productos {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* ==============================
+   SECCIONES ESPECIALES
+   ============================== */
+.inicio-image {
+    padding: 20px;
+    height: 500px;
+    margin: 20px;
+    top: 20%;
+    left: 2px; 
+    color: rgb(93, 10, 56);
+    text-align: center;
+}
+
+.empleo {
+    top: 20%;
+    left: 2px; 
+    color: rgb(29, 46, 206);
+}
+
+.contacto-image {
+    text-align: center;
+}
+
+/* ==============================
+   FOOTER
+   ============================== */
+footer {
+    position: relative;
+    width: auto;
+    height: 155px;      
+    text-align: center; 
+    background: #e4c0d8f7;
+}
+
+
+
+ 
