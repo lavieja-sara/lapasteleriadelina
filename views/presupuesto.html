@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuestos - La Pastelería de Lina</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <h1>La Pastelería de Lina</h1>
+                </div>
+              
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="productos.html" class="nav-link">Productos</a></li>
+                    <li><a href="presupuesto.html" class="nav-link active">Presupuestos</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section class="form-section">
+            <div class="section-container">
+                <h2>Solicita tu Presupuesto</h2>
+                <div class="form-container">
+                    
+                    <form action="#" method="post">
+                        
+                        <div class="form-group">
+                            <label for="nombre">Nombre *</label>
+                            <input
+                                type="text"
+                                name="nombre"
+                                id="nombre"
+                                placeholder="Introduce tu nombre completo"
+                                required
+                            >
+                        </div>
+
+                       
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="tu@correo.com"
+                                required
+                            >
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input
+                                type="tel"
+                                name="telefono"
+                                id="telefono"
+                                placeholder="+34 951 234 567"
+                                pattern="[0-9\s\-\+\(\)]+"
+                                required
+                            >
+                        </div>
+
+                       
+                        <div class="form-group">
+                            <label for="solicitud">Solicite más información *</label>
+                            <textarea
+                                name="solicitud"
+                                id="solicitud"
+                                placeholder="Cuéntanos sobre tu tarta ideal: tipo, sabor, cantidad, fecha de evento..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <div class="checkbox-group">
+                                <input
+                                    type="checkbox"
+                                    name="politica"
+                                    id="politica"
+                                    required
+                                >
+                                <label for="politica">
+                                    He leído y acepto la <a href="#" title="Ver Política de Privacidad">Política de Privacidad</a>
+                                </label>
+                            </div>
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <button type="submit">Enviar Presupuesto</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Síguenos en Redes Sociales</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com/lapasteleriadelina" target="_blank" title="Facebook">
+                        <span class="social-icon">f</span>
+                    </a>
+                   
+                    <a href="https://instagram.com/lapasteleriadelina" target="_blank" title="Instagram">
+                        <span class="social-icon">📷</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Ubicación</h3>
+                <p>Caminito del Ing. Acosta 2<br>29001 Málaga, España</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>
+                    Email: <a href="mailto:info@lapasteleriadelina.es">info@lapasteleriadelina.es</a><br>
+                    Teléfono: <a href="tel:+34951234567">+34 951 234 567</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 La Pastelería de Lina. Todos los derechos reservados.</p>
+            <a href="#" class="legal-link">Aviso Legal</a> | 
+            <a href="#" class="legal-link">Política de Privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>
